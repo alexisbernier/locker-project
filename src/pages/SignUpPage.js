@@ -3,6 +3,7 @@ import PasswordForm from "../components/forms/PasswordForm";
 import ConfirmPasswordForm from "../components/forms/ConfirmPasswordForm";
 import Checkbox from "../components/forms/Checkbox";
 import UserNameForm from "../components/forms/UserNameForm";
+import Footer from "../components/Footer";
 
 const SignUpPage = () => {
   return (
@@ -12,6 +13,7 @@ const SignUpPage = () => {
       <PasswordForm />
       <ConfirmPasswordForm />
       <Checkbox />
+      <Footer />
     </>
   );
 };
