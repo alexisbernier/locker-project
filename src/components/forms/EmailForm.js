@@ -1,5 +1,4 @@
 import Form from "react-bootstrap/Form";
-import styled from "@emotion/styled";
 
 const EmailForm = () => {
   return (
