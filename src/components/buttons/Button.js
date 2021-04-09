@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 
-const Button = () => {
+const Btn = () => {
   return (
     <>
       {" "}
@@ -9,4 +9,4 @@ const Button = () => {
   );
 };
 
-export default Button;
+export default Btn;
