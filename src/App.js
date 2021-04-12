@@ -1,10 +1,7 @@
 import SignUpPage from "./pages/SignUpPage";
 
 const App = () => {
-  return (
-    <SignUpPage />
-
-  );
+  return <SignUpPage />;
 };
 
 export default App;
