@@ -6,12 +6,14 @@ import Footer from "../components/Footer";
 import Checkbox from "../components/forms/Checkbox";
 import Btn from "../components/buttons/Button";
 import styled from "@emotion/styled";
+import SiteName from "../components/SiteName";
 
 const Container = styled.form``;
 
 const SignUpPage = () => {
   return (
     <Container>
+      <SiteName />
       <UserNameForm />
       <EmailForm />
       <PasswordForm />
