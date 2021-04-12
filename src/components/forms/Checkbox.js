@@ -13,11 +13,7 @@ const Checkbox = () => {
   return (
     <StyledForm>
       <Form.Group controlId="formBasicCheckbox">
-        <Form.Check
-          required
-          label="Agree to Terms of service"
-          feedback="You must agree before confirming"
-        />
+        <Form.Check required label="Agree to Terms of service" />
       </Form.Group>
     </StyledForm>
   );
