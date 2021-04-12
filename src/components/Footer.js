@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 const StyledFooter = styled.footer`
   background-color: grey;
   display: flex;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   right: 0;
