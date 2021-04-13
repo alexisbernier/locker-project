@@ -1,17 +1,48 @@
-import Navbar from "react-bootstrap/Navbar";
+import styled from "@emotion/styled/";
+
+const StyledNavbar = styled.div`
+  div {
+    background-color: #e9ecef;
+    margin-bottom: 3rem;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+  }
+  a:hover {
+    background-color: #868e96;
+  }
+`;
 
 const Nav = () => {
   return (
-    <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <StyledNavbar>
+      <div>
+        <ul>
+          <li>
+            <a href="../pages/SignUpPage.js">Sign Up</a>
+          </li>
+          <li>
+            <a href="../pages/SignInPage.js">Sign In</a>
+          </li>
+          <li>
+            <a href="../pages/HomePage.js">Home</a>
+          </li>
+        </ul>
+      </div>
+    </StyledNavbar>
   );
 };
 
