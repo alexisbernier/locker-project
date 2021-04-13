@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 import styled from "@emotion/styled";
 
 const Container = styled.form`
-  font-family: Georgia, serif;
+  font-family: "Gill Sans", sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
