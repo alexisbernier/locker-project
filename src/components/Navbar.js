@@ -32,13 +32,13 @@ const Nav = () => {
       <div>
         <ul>
           <li>
-            <a href="../pages/SignUpPage.js">Sign Up</a>
+            <a href="/SignUpPage">Sign Up</a>
           </li>
           <li>
-            <a href="../pages/SignInPage.js">Sign In</a>
+            <a href="/SignInPage">Sign In</a>
           </li>
           <li>
-            <a href="../pages/HomePage.js">Home</a>
+            <a href="/HomePage">Home</a>
           </li>
         </ul>
       </div>
