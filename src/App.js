@@ -8,7 +8,7 @@ const App = () => {
     <Router>
       {" "}
       <Switch>
-        <Route path="/HomePage">
+        <Route exact path="/">
           <HomePage />
         </Route>
         <Route path="/SignUpPage">
