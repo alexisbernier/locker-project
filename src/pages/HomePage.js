@@ -1,4 +1,4 @@
-import About from "../About";
+import About from "../components/About";
 import Footer from "../components/Footer";
 import Nav from "../components/Navbar";
 import RecentItems from "../components/RecentItems";
