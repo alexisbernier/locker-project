@@ -1,6 +1,7 @@
 import SignUpPage from "./pages/SignUpPage";
 import SignInPage from "./pages/SignInPage";
 import HomePage from "./pages/HomePage";
+import ForumPage from "./pages/ForumPage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const App = () => {
@@ -10,6 +11,9 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <HomePage />
+        </Route>
+        <Route path="/ForumPage">
+          <ForumPage />
         </Route>
         <Route path="/SignUpPage">
           <SignUpPage />
