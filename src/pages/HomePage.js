@@ -1,13 +1,17 @@
+import About from "../About";
 import Footer from "../components/Footer";
 import Nav from "../components/Navbar";
+import RecentItems from "../components/RecentItems";
 import SiteName from "../components/SiteName";
 
 const HomePage = () => {
   return (
     <>
-      <Footer />
       <SiteName />
       <Nav />
+      <About />
+      <RecentItems />
+      <Footer />
     </>
   );
 };
