@@ -16,7 +16,7 @@ const ItemPage = () => {
       <Container>
         <Item />
         <div>
-          <h3>Estimated price : 123$</h3>
+          <p>Estimated price : 123$</p>
         </div>
         <Footer />
       </Container>
