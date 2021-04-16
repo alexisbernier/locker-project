@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 
 const RecentItems = () => {
   return (
-    <Container fluid>
+    <Container>
       <h3>Recent items</h3>
       <Row>
         <Item />
