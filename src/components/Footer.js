@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { Container } from "react-bootstrap";
 
 const StyledFooter = styled.footer`
   background-color: #e9ecef;
@@ -11,16 +12,18 @@ const StyledFooter = styled.footer`
 
 const Footer = () => {
   return (
-    <StyledFooter className="main-footer">
-      <div>
-        {/* Footer Bottom */}
-        <div className="footer-bottom">
-          <p className="p text-xs-center">
-            &copy;{new Date().getFullYear()} Locker - All Rights Reserved
-          </p>
+    <Container class="mt-5">
+      <StyledFooter className="main-footer">
+        <div>
+          {/* Footer Bottom */}
+          <div className="footer-bottom">
+            <p className="p text-xs-center">
+              &copy;{new Date().getFullYear()} Locker - All Rights Reserved
+            </p>
+          </div>
         </div>
-      </div>
-    </StyledFooter>
+      </StyledFooter>
+    </Container>
   );
 };
 
