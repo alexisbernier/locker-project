@@ -5,6 +5,7 @@ import ForumPage from "./pages/ForumPage";
 import ItemPage from "./pages/ItemPage";
 import ProfilePage from "./pages/ProfilePage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import HomePageCo from "./pages/HomePageWhenConnected";
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <HomePage />
+        </Route>
+        <Route path="/HomePageCo">
+          <HomePageCo />
         </Route>
         <Route path="/ForumPage">
           <ForumPage />
