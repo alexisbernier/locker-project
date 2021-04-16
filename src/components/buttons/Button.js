@@ -1,4 +1,3 @@
-import Button from "react-bootstrap/Button";
 import styled from "@emotion/styled";
 
 const Container = styled.form`
@@ -13,9 +12,9 @@ const Btn = () => {
   return (
     <Container>
       {" "}
-      <Button variant="secondary" block>
+      <a class="btn btn-secondary" block href="/HomePageCo" role="button">
         Confirm
-      </Button>{" "}
+      </a>
     </Container>
   );
 };
