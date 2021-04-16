@@ -1,51 +1,47 @@
-import styled from "@emotion/styled/";
-
-const StyledNavbar = styled.div`
-  div {
-    background-color: #e9ecef;
-    margin-bottom: 3rem;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  li {
-    list-style-type: none;
-    margin: 0 2vw;
-    font-size: 3vh;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-    padding: 2vw;
-  }
-  a:hover {
-    background-color: #868e96;
-  }
-`;
-
 const Nav = () => {
   return (
-    <StyledNavbar>
-      <div>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/ForumPage">Forum</a>
-          </li>
-          <li>
-            <a href="/SignUpPage">Sign Up</a>
-          </li>
-          <li>
-            <a href="/SignInPage">Sign In</a>
-          </li>
-        </ul>
-      </div>
-    </StyledNavbar>
+    <>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <a class="navbar-brand" href="/">
+          Locker
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">
+                Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/ForumPage">
+                Forum
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/SignUpPage">
+                Sign Up
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/SignInPage">
+                Sign In
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </>
   );
 };
 
