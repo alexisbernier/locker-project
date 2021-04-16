@@ -3,6 +3,7 @@ import SignInPage from "./pages/SignInPage";
 import HomePage from "./pages/HomePage";
 import ForumPage from "./pages/ForumPage";
 import ItemPage from "./pages/ItemPage";
+import ProfilePage from "./pages/ProfilePage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const App = () => {
@@ -15,6 +16,9 @@ const App = () => {
         </Route>
         <Route path="/ForumPage">
           <ForumPage />
+        </Route>
+        <Route path="/ProfilePage">
+          <ProfilePage />
         </Route>
         <Route path="/SignUpPage">
           <SignUpPage />
