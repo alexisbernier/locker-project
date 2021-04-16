@@ -24,16 +24,6 @@ const Nav = () => {
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="/ForumPage">
-                Forum
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/ProfilePage">
-                Profile
-              </a>
-            </li>
-            <li class="nav-item active">
               <a class="nav-link" href="/SignUpPage">
                 Sign Up
               </a>
