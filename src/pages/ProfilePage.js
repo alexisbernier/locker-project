@@ -2,7 +2,6 @@ import { Container, Col, Row, Table } from "react-bootstrap";
 import Footer from "../components/Footer";
 import NavCo from "../components/NavbarWhenConnected";
 import ProfilePicture from "../components/ProfilePicture";
-import RecentItems from "../components/RecentItems";
 
 const ProfilePage = () => {
   return (
@@ -15,8 +14,8 @@ const ProfilePage = () => {
             <div className="mb-5">
               <h2 class="text-justify">Username</h2>
               <p> User Description</p>
+              <a href="/BoxPage">My Box</a>
             </div>
-            <RecentItems />
           </Col>
           <Col sm={4}>
             <div>
