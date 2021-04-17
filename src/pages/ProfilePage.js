@@ -2,6 +2,7 @@ import { Container, Col, Row, Table } from "react-bootstrap";
 import Footer from "../components/Footer";
 import NavCo from "../components/NavbarWhenConnected";
 import ProfilePicture from "../components/ProfilePicture";
+import RecentItems from "../components/RecentItems";
 
 const ProfilePage = () => {
   return (
@@ -11,15 +12,11 @@ const ProfilePage = () => {
         <Row className="justify-content-md-center">
           <Col sm={8}>
             <ProfilePicture />
-            <div>
+            <div className="mb-5">
               <h2 class="text-justify">Username</h2>
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia ex magni perferendis! Vel consequuntur itaque ea sit
-                molestias modi dolorem?
-              </p>
+              <p> User Description</p>
             </div>
+            <RecentItems />
           </Col>
           <Col sm={4}>
             <div>
