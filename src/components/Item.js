@@ -5,7 +5,6 @@ const StyledLinks = styled.div`
   a {
     text-decoration: none;
     color: black;
-    padding: 2vw;
   }
 `;
 
