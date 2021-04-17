@@ -12,7 +12,7 @@ const Btn = () => {
   return (
     <Container>
       {" "}
-      <a class="btn btn-secondary" block href="/HomePageCo" role="button">
+      <a class="btn btn-secondary" href="/HomePageCo" role="button">
         Confirm
       </a>
     </Container>
