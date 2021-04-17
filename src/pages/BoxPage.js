@@ -10,29 +10,17 @@ const BoxPage = () => {
       <NavCo />
       <Container>
         <p>My Collection</p>
-        <Row className="no-gutters">
+        <Row>
           <Col sm={8}>
             <Row>
-              <Col>
-                <Item />
-              </Col>
-              <Col>
-                <Item />
-              </Col>
-              <Col>
-                <Item />
-              </Col>
+              <Item />
+              <Item />
+              <Item />
             </Row>
             <Row>
-              <Col>
-                <Item />
-              </Col>
-              <Col>
-                <Item />
-              </Col>
-              <Col>
-                <Item />
-              </Col>
+              <Item />
+              <Item />
+              <Item />
             </Row>
           </Col>
           <Col sm={4}>
@@ -42,6 +30,8 @@ const BoxPage = () => {
             <Row>
               <Col>
                 <Item />
+              </Col>
+              <Col>
                 <Item />
               </Col>
             </Row>
