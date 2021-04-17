@@ -6,6 +6,7 @@ import ItemPage from "./pages/ItemPage";
 import ProfilePage from "./pages/ProfilePage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomePageCo from "./pages/HomePageWhenConnected";
+import BoxPage from "./pages/BoxPage";
 
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
         </Route>
         <Route path="/ProfilePage">
           <ProfilePage />
+        </Route>
+        <Route path="/BoxPage">
+          <BoxPage />
         </Route>
         <Route path="/SignUpPage">
           <SignUpPage />
