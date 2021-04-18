@@ -1,20 +1,24 @@
 import Footer from "../components/Footer";
 import RecentItems from "../components/RecentItems";
 import NavCo from "../components/NavbarWhenConnected";
-import styled from "@emotion/styled";
-
-const Container = styled.div`
-  margin: 2rem;
-`;
+import ProfilePreview from "../components/ProfilePreview";
+import { Container, Row, Col } from "react-bootstrap";
 
 const HomePageCo = () => {
   return (
     <>
       <NavCo />
       <Container>
-        <RecentItems />
-        <Footer />
+        <Row>
+          <Col sm={8}>
+            <RecentItems />
+          </Col>
+          <Col>
+            <ProfilePreview />
+          </Col>
+        </Row>
       </Container>
+      <Footer />
     </>
   );
 };
