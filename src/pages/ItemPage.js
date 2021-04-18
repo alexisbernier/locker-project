@@ -1,25 +1,29 @@
 import Footer from "../components/Footer";
 import Nav from "../components/Navbar";
 import Item from "../components/Item";
-import styled from "@emotion/styled";
 import ItemDescription from "../components/ItemDescription";
 import LinksToBuyIt from "../components/LinksToBuyIt";
-
-const Container = styled.div`
-  margin: 2rem;
-`;
+import { Container, Row, Col } from "react-bootstrap";
 
 const ItemPage = () => {
   return (
     <>
       <Nav />
       <Container>
-        <Item />
-        <div>
-          <p>Estimated price : 123$</p>
-        </div>
-        <ItemDescription />
-        <LinksToBuyIt />
+        <Row>
+          <Col sm={4}>
+            <Item />
+            <div className="mt-2">
+              <p>Estimated price : 123$</p>
+            </div>
+          </Col>
+          <Col>
+            <div className="mb-5">
+              <ItemDescription />
+            </div>
+            <LinksToBuyIt />
+          </Col>
+        </Row>
         <Footer />
       </Container>
     </>
