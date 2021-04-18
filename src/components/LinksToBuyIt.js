@@ -1,21 +1,26 @@
-import Item from "./Item";
-import { Container, Row } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 
 const LinksToBuyIt = () => {
   return (
-    <Container fluid>
+    <>
       <h3>Links to buy it :</h3>
-      <Row>
-        <Item />
-        <Item />
-        <Item />
-      </Row>
-      <Row>
-        <Item />
-        <Item />
-        <Item />
-      </Row>
-    </Container>
+      <Table striped bordered hover size="md">
+        <tbody>
+          <tr>
+            <td>Link</td>
+          </tr>
+          <tr>
+            <td>Link</td>
+          </tr>
+          <tr>
+            <td>Link</td>
+          </tr>
+          <tr>
+            <td>Link</td>
+          </tr>
+        </tbody>
+      </Table>
+    </>
   );
 };
 
