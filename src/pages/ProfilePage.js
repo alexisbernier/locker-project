@@ -1,5 +1,4 @@
 import { Container, Col, Row, Table } from "react-bootstrap";
-import Footer from "../components/Footer";
 import NavCo from "../components/NavbarWhenConnected";
 import ProfilePicture from "../components/ProfilePicture";
 
@@ -52,7 +51,6 @@ const ProfilePage = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 };

@@ -1,5 +1,4 @@
 import NavCo from "../components/NavbarWhenConnected";
-import Footer from "../components/Footer";
 
 import { Container, Row, Table, Button } from "react-bootstrap";
 
@@ -43,8 +42,6 @@ const TopicPage = () => {
           </Button>
         </Row>
       </Container>
-
-      <Footer />
     </>
   );
 };

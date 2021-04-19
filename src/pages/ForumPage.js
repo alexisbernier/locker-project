@@ -1,5 +1,4 @@
 import NavCo from "../components/NavbarWhenConnected";
-import Footer from "../components/Footer";
 
 import { Container, Row, Col, Table, Button } from "react-bootstrap";
 
@@ -77,7 +76,6 @@ const ForumPage = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 };

@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import RecentItems from "../components/RecentItems";
 import NavCo from "../components/NavbarWhenConnected";
 import ProfilePreview from "../components/ProfilePreview";
@@ -18,7 +17,6 @@ const HomePageCo = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 };

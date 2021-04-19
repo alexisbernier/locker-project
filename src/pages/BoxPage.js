@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import Footer from "../components/Footer";
 import Item from "../components/Item";
 import NavCo from "../components/NavbarWhenConnected";
 
@@ -38,7 +37,6 @@ const BoxPage = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 };

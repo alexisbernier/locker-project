@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import Nav from "../components/Navbar";
 import Item from "../components/Item";
 import ItemDescription from "../components/ItemDescription";
@@ -24,7 +23,6 @@ const ItemPage = () => {
             <LinksToBuyIt />
           </Col>
         </Row>
-        <Footer />
       </Container>
     </>
   );
