@@ -1,4 +1,4 @@
-import Card from "react-bootstrap/Card";
+import { Card } from "react-bootstrap";
 import styled from "@emotion/styled";
 
 const StyledLinks = styled.div`

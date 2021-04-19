@@ -1,5 +1,6 @@
 import Nav from "../components/Navbar";
 import RecentItems from "../components/RecentItems";
+
 import styled from "@emotion/styled";
 
 const Container = styled.div`

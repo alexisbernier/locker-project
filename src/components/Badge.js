@@ -1,4 +1,4 @@
-import Badge from "react-bootstrap/Badge";
+import { Badge } from "react-bootstrap";
 
 const Badg = () => {
   return (

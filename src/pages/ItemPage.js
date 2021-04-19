@@ -2,6 +2,7 @@ import Nav from "../components/Navbar";
 import Item from "../components/Item";
 import ItemDescription from "../components/ItemDescription";
 import LinksToBuyIt from "../components/LinksToBuyIt";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 const ItemPage = () => {

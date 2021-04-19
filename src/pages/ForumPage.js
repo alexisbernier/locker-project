@@ -1,6 +1,6 @@
-import NavCo from "../components/NavbarWhenConnected";
-
 import { Container, Row, Col, Table, Button } from "react-bootstrap";
+
+import NavCo from "../components/NavbarWhenConnected";
 
 const ForumPage = () => {
   return (

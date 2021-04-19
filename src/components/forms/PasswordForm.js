@@ -1,4 +1,4 @@
-import Form from "react-bootstrap/Form";
+import { Form } from "react-bootstrap";
 import styled from "@emotion/styled";
 
 const StyledForm = styled.form`

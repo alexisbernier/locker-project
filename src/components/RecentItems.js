@@ -1,5 +1,6 @@
-import Item from "./Item";
 import { Container, Row } from "react-bootstrap/";
+
+import Item from "./Item";
 
 const RecentItems = () => {
   return (
